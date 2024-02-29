@@ -36,7 +36,7 @@ export const MovieList: FC = () => {
             </Center>
             {
                 movies.map((movie, i) => <Card key={i} movie={movie} /> )
-            }
+            } 
             <Center>
                 <HStack w='full' mt={2} mb={8} ml={4} mr={4}>
                     {

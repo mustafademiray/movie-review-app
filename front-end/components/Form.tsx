@@ -79,7 +79,7 @@ export const Form: FC = () => {
             justifyContent="center"
         >
             <form onSubmit={handleSubmit}>
-                <FormControl isRequired>
+                <FormControl isRequired> 
                     <FormLabel color='gray.200'>
                         Movie Title
                     </FormLabel>
