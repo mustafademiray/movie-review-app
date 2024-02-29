@@ -8,7 +8,7 @@ export interface CardProps {
 
 export const Card: FC<CardProps> = (props) => {
     return (
-        <Box
+        <Box 
             p={4}
             display={{ md: "flex" }}
             maxWidth="32rem"

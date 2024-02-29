@@ -11,7 +11,7 @@ export const Form: FC = () => {
     const [title, setTitle] = useState('')
     const [rating, setRating] = useState(0)
     const [description, setDescription] = useState('')
-
+ 
     const { connection } = useConnection();
     const { publicKey, sendTransaction } = useWallet();
 

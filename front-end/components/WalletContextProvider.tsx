@@ -12,7 +12,7 @@ const WalletContextProvider: FC<{ children: ReactNode }> = ({ children }) => {
 		new walletAdapterWallets.SolflareWalletAdapter()
 	]
 
-	return (
+	return ( 
 		<ConnectionProvider endpoint={endpoint}>
 			<WalletProvider wallets={wallets}>
 				<WalletModalProvider>

@@ -16,7 +16,7 @@ export const MovieList: FC = () => {
             connection, 
             page, 
             5,
-            search,
+            search, 
             search !== ''
         ).then(setMovies)
     }, [page, search])
